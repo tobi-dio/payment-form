@@ -1,0 +1,80 @@
+body{
+  background-color: lightblue;
+  padding:0;
+  margin:0;
+  font-family: Arial, Helvetica, Sans;
+}
+
+.wrapper h2{
+  text-align: center;
+/*   border: 1px solid green; */
+/*   background-color:white; */
+  margin-top:auto;
+ }
+
+h2{
+  color: black;
+  font-family:Roboto,Helvetica,Arial,sans-serif;
+}
+
+h4{
+  padding:2px;
+}
+input[type=text] {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+input[type=email] {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 11px;
+  border: 1px solid lightblue;
+  border-radius: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type=radio]{
+  margin-bottom: 20px;
+  padding: 12px;  
+}
+
+.input-group{
+  margin-bottom: 1px;
+  padding: 5px; 
+/*   font-family: Courier New; */
+}
+
+input[type=tel]{
+  border-radius:20px;
+  border:2px solid white;
+  }
+
+/* .input-box select{
+    padding:5px;
+    margin-bottom:1px;
+}
+ */
+.input-group button{
+  background-color: green;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.input-group button:hover{
+  background-color: grey;
+}
+
+
